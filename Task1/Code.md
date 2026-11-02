@@ -1,5 +1,5 @@
 Problem Statement:
-52. Hackathon Team Formation and Ranking: Analyse student scores and team compositions, validate team sizes, aggregate round scores and rank teams.
+ Hackathon Team Formation and Ranking: Analyse student scores and team compositions, validate team sizes, aggregate round scores and rank teams.
 
 Algorithm:
 Step 1: Start
