@@ -43,6 +43,7 @@ flowchart TD
     J -- No --> L[Sort Teams]
     L --> M[Display Ranking]
     M --> N[Stop]
+```
 Sample Input:
 
 Enter number of teams: 3
