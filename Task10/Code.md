@@ -31,3 +31,25 @@ flowchart TD
     J --> K[Display Matrices and Underserved Area]
     K --> L[Stop]
 ```
+
+Sample Input:
+Enter number of areas: 3
+Enter number of days: 3
+Enter demand per area: 100 80 120
+Area1 supply: 70 80 60
+Area2 supply: 80 70 80
+Area3 supply: 100 90 80
+
+Sample Output:
+Supply Matrix:
+Area1: 70 80 60
+Area2: 80 70 80
+Area3: 100 90 80
+
+Shortage Matrix:
+Area1: 30 20 40 | Total Shortage: 90 | Avg Supply: 70
+Area2: 0 10 0 | Total Shortage: 10 | Avg Supply: 76.6
+Area3: 20 30 40 | Total Shortage: 90 | Avg Supply: 90
+
+Most Underserved Area: Area1 and Area3 with max shortage 90
+Fairness %: Area1 70%, Area2 95.8%, Area3 75%
