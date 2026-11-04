@@ -45,3 +45,16 @@ flowchart TD
 
 Sample Input:
 Enter rows: 2
+Enter columns: 3
+Seating Matrix:
+Row1: 101 0 -1
+Row2: 102 101 103
+
+Sample Output:
+Empty Seats: [(0,1)] Count: 1
+Reserved Seats: [(0,2)] Count: 1
+Valid Allocations: [(0,0)=101, (1,0)=102, (1,2)=103] Count: 3
+Duplicate Roll Numbers Found: [101]
+Invalid Allocations: []
+Total Students Seated: 3
+Final Validation Result: Failed - Duplicate Found
