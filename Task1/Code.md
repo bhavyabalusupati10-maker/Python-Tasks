@@ -43,3 +43,20 @@ flowchart TD
     J -- No --> L[Sort Teams]
     L --> M[Display Ranking]
     M --> N[Stop]
+Sample Input:
+
+Enter number of teams: 3
+
+Team 1: CodeCrafters, Members: Bhavya, Ram, Sita, Scores: 80,85,90, Rounds: 70 80 90
+
+Team 2: ByteForce, Members: John, Invalid -Skipping
+
+Team 3: AlgoMinds, Members: Ali, Kiran, Scores: 95,92, Rounds: 85 85 85
+
+Sample Output:
+
+Rank Team Name Total R3 Avg Size
+
+1 AlgoMinds 255 85 93.50 2
+
+2 CodeCrafters 240 90 85.00 3
