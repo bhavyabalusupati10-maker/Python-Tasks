@@ -1,7 +1,10 @@
 Problem Statement:
 Hackathon Team Formation and Ranking System
 
-Develop a system to validate hackathon teams and rank them fairly. Each team must have 2 to 4 members. For each valid team, calculate Total Score from 3 rounds (R1+R2+R3) and Average of individual scores. Ranking Criteria (Tie Breakers): 1. Higher Total Score, 2. Higher Round 3 Score, 3. Higher Average Score, 4. Alphabetical Order of Team Name.
+Develop a system to validate hackathon teams and rank them fairly. Each team must have 2 to 4 members. For each valid team, calculate Total Score from 3 rounds (R1+R2+R3) and Average of individual scores. Ranking Criteria (Tie Breakers): 1. Higher Total Score
+2. Higher Round 3 Score, 
+3. Higher Average Score, 
+4. Alphabetical Order of Team Name.
 
 Algorithm:
 Step 1: Start
